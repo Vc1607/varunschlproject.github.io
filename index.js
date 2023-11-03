@@ -14,9 +14,10 @@ button.addEventListener("click", function() {
       fetch(urlfornow)
       .then(response =>{
         console.log(response);
-        if (response.success){
-            alert("Saved")
-        }
+        alert("Successfully Saved");
+        idbox.value = "";
+        name.value = "";
+        fname.value = "";
       })
 
     } catch (error) {
