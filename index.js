@@ -23,7 +23,7 @@ button.addEventListener("click", function() {
       console.log(error);
     }
   }else if (canfire === false){
-    alert("Don't spam the button please");
+    alert("One moment please, the page is loading");
   }else {
     alert("Fill the values of Student");
   }
